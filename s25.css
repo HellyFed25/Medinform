@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 100px;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header,
+footer {
+    text-align: center;
+    background-color: gainsboro;
+}
+header,
+p {
+    text-align: justify;
+    text-indent: 8ch;
+}  
+p:: ::first-letter {
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+} 
+    h2, h3, h4 {
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+} 
+.letter1 {
+    color: black;
+    text-decoration-line: underline;
+    font-size: 120%;
+} 
+p:: ::first-line {
+    color: black;
+}  
+aside {
+    background: rgb(198, 234, 229);
+    float: right;
+    padding-right: 10px;
+    width: 35%;
+    height: 300px;
+} 
